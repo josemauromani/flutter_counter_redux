@@ -7,6 +7,9 @@ import 'package:redux/redux.dart';
 class Counter extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    /**
+     * StoreConnector retorna ViewModel pois vai "atualizar"
+     */
     return StoreConnector<AppState, _ViewModel>(
         converter: _ViewModel.fromStore,
         builder: (BuildContext context, _ViewModel vm) {

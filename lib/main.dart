@@ -4,6 +4,8 @@ import 'package:flutter_redux/flutter_redux.dart';
 import 'package:redux/redux.dart';
 import 'package:login_flutter_redux/models/app_state.dart';
 import 'package:login_flutter_redux/reducers/app_reducer.dart';
+import 'package:redux_logging/redux_logging.dart';
+
 
 void main() => runApp(MyApp());
 
@@ -15,6 +17,7 @@ class MyApp extends StatelessWidget {
     appReducer,
     initialState: AppState(),
     middleware: [],
+    // LoggingMiddleware.printer()
   );
 
   @override

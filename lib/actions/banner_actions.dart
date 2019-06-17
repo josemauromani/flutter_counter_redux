@@ -1,0 +1,3 @@
+class MostraBanner {}
+
+class TrocaBanner {}

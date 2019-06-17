@@ -9,6 +9,10 @@ class IncreaseCountButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    /**
+     * StoreConnector retorna VoidCallback 
+     * pois vai apenas incrementar valor chamando uma Action     * 
+     */
     return StoreConnector<AppState, VoidCallback>(
       converter: (Store<AppState> store) {
         return () {

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:login_flutter_redux/containers/counter/counter.dart';
+import 'package:login_flutter_redux/containers/banners/banner.dart';
+import 'package:login_flutter_redux/containers/banners/troca_banner.dart';
 import 'package:login_flutter_redux/containers/counter/increase_counters.dart';
 
 class HomePage extends StatelessWidget {
@@ -14,16 +16,13 @@ class HomePage extends StatelessWidget {
           title: Text(this.title),
         ),
         body: Container(
-          child: Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                Text(
-                  'You have pushed the button this many times:',
-                ),
-                Counter(),
-              ],
-            ),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Counter(),
+              BannerLoja(),
+              TrocaBannerButton(),
+            ],
           ),
         ),
         floatingActionButton: IncreaseCountButton());
