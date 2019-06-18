@@ -1,0 +1,9 @@
+- app_state pode ficar na raiz ? (vai ficar gigante ?); 
+
+- models (seriam as classes de cada recurso? tipo classe Banners? )
+
+- middleware (como implementar ?))
+
+- como fazer para pegar os banners de um json?
+    https://picsum.photos/v2/list
+

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:login_flutter_redux/pages/home_page.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:redux/redux.dart';
-import 'package:login_flutter_redux/models/app_state.dart';
+import 'package:login_flutter_redux/app_state.dart';
 import 'package:login_flutter_redux/app_reducer.dart';
 import 'package:redux_logging/redux_logging.dart';
 

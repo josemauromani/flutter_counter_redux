@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:login_flutter_redux/models/app_state.dart';
+import 'package:login_flutter_redux/app_state.dart';
 import 'package:redux/redux.dart';
 
 class Counter extends StatelessWidget {
