@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:login_flutter_redux/containers/counter/counter.dart';
-import 'package:login_flutter_redux/containers/banners/banner.dart';
-import 'package:login_flutter_redux/containers/banners/troca_banner.dart';
-import 'package:login_flutter_redux/containers/counter/increase_counters.dart';
+import 'package:login_flutter_redux/counter/counter.dart';
+import 'package:login_flutter_redux/banners/banner.dart';
+import 'package:login_flutter_redux/banners/troca_banner.dart';
+import 'package:login_flutter_redux/counter/increase_counters.dart';
 
 class HomePage extends StatelessWidget {
   final String title;

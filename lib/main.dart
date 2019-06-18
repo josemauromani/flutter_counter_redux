@@ -6,18 +6,15 @@ import 'package:login_flutter_redux/models/app_state.dart';
 import 'package:login_flutter_redux/reducers/app_reducer.dart';
 import 'package:redux_logging/redux_logging.dart';
 
-
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   String title = 'Meu aplicativo';
 
-  // store armazena a árovre de estados
   final store = Store<AppState>(
     appReducer,
     initialState: AppState(),
-    middleware: [],
-    // LoggingMiddleware.printer()
+    middleware: [LoggingMiddleware.printer()],
   );
 
   @override

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:login_flutter_redux/actions/banner_actions.dart';
+import 'banner_actions.dart';
 import 'package:login_flutter_redux/models/app_state.dart';
 import 'package:redux/redux.dart';
 
